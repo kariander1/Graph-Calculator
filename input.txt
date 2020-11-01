@@ -1,0 +1,4 @@
+G1 = G1 * G1
+G3 = !G1
+print(G3)
+prin()

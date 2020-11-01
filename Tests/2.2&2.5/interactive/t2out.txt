@@ -1,0 +1,4 @@
+Gcalc> GCalc> GCalc> G2
+G21
+Gcalc> GCalc> G2
+Gcalc> 

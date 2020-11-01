@@ -1,0 +1,335 @@
+Error: File Manager: error opening file, maybe it doesn't exist or has an illegal character? : ''
+$
+$
+$
+$
+$
+Error: Graph Parser: Unmatched parentheses: '()'
+x1
+x2
+x3
+$
+x1 x2
+x1 x3
+[x1;x1]
+[x1;x2]
+[x1;x3]
+[x1;x4]
+[x2;x1]
+[x2;x2]
+[x2;x3]
+[x2;x4]
+[x3;x1]
+[x3;x2]
+[x3;x3]
+[x3;x4]
+$
+[x1;x1]
+[x1;x2]
+[x1;x3]
+[x1;x4]
+[x2;x1]
+[x2;x2]
+[x2;x3]
+[x2;x4]
+[x3;x1]
+[x3;x2]
+[x3;x3]
+[x3;x4]
+$
+$
+Error: File Manager: Error reading edge num. '1'
+Error: File Manager: Error reading vertices count in: 'graph_empty_file.gc'
+Error: File Manager: Error reading vertices count in: 'graph_wrong_vertices_count.gc'
+Error: File Manager: Error reading vertex length num. '0'
+Error: File Manager: Error reading vertex num. '0'
+Error: File Manager: Error reading edges count in: 'graph_wrong_edges_count.gc'
+Error: File Manager: Error reading edge num. '11'
+Error: File Manager: Error reading edge num. '11'
+Error: File Manager: Error reading edge num. '11'
+Error: File Manager: Error reading edge num. '11'
+Error: DiGraph: Received nonexistent vertex: 'x9'
+Error: Graph Parser: Unmatched parentheses: '[]'
+x1
+x2
+x3
+x4
+$
+x1 x2
+x1 x3
+x1 x4
+x2 x1
+x2 x3
+x2 x4
+x3 x1
+x3 x2
+x3 x4
+x4 x1
+x4 x2
+x4 x3
+Error: DiGraph: Self loof deteced: 'x4'
+Error: DiGraph: Vertex already exists: 'x1'
+Error: DiGraph: Illegal edge name: 'x1,,4'
+Error: DiGraph: Illegal edge name: 'x,,x2'
+Error: DiGraph: Illegal vertex name: 'x,'
+Error: DiGraph: Illegal vertex name: '[;];[;]'
+Error: File Manager: Error reading edge num. '11'
+Error: File Manager: Error reading edge num. '12'
+Error: File Manager: error opening file, maybe it doesn't exist or has an illegal character? : '11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111'
+[[;;]]
+[[][]]
+[[]]
+[][]
+[a;][;b]
+$
+[][] [[]]
+00
+01
+011
+10
+11
+110
+111
+AB
+BA
+ab
+ba
+$
+11 ab
+111 ab
+ba 00
+$
+[00;00]
+[01;00]
+[10;00]
+[11;00]
+$
+[00;00]
+[01;00]
+[10;00]
+[11;00]
+$
+Error: Operation Parse: Unrecognized command 'wh o'
+Error: Operation Parse: Unrecognized command '()'
+Error: Operation Parse: Unrecognized command '(  )'
+Error: Operation Parse: Unrecognized command 'delet e (ssave)'
+Error: Operation Parse: Unrecognized command 'd elete (whoo)'
+Error: Operation Parse: Unrecognized command 'qui t'
+Error: Operation Parse: Unrecognized command 'qquit'
+Error: Operation Parse: Unrecognized command 'rese t'
+Error: Operation Parse: Unrecognized command '()'
+Error: Operation Parse: Unrecognized command '(          )'
+delete
+quit
+reset
+$
+delete quit
+delete reset
+quit delete
+quit reset
+reset delete
+reset quit
+delete
+quit
+reset
+$
+delete quit
+delete reset
+quit delete
+quit reset
+reset delete
+reset quit
+Error: Operation Parse: Undefined variable 'nonexistenet1'
+Error: Operation Parse: Undefined variable 'nonexistenet1'
+Error: Operation Parse: Undefined variable 'nonexistenet1'
+Error: Operation Parse: Undefined variable 'nonexistenet1'
+Error: Operation Parse: No arguements given, expected:<>
+Error: DiGraph: Illegal vertex name: ''
+Error: DiGraph: Illegal vertex name: ''
+Error: Operation Parse: No arguements given, expected:<>
+Error: DiGraph: Illegal vertex name: '[];a'
+Error: DiGraph: Illegal vertex name: '[];a'
+Error: DiGraph: Self loof deteced: 'a'
+Error: Graph Parser: Unmatched parentheses: '[]'
+Error: DiGraph: Illegal vertex name: ''
+Error: Graph Parser: Unmatched parentheses: '<>'
+Error: Operation Parse: No arguements given, expected:<>
+Error: DiGraph: Illegal vertex name: 'c   <b'
+Error: Graph Parser: Unary operator used as a binary operator: '!'
+Error: Graph Parser: Illegal variable name, must start with a letter: '{ a,b,c  | <b,c> ,<a,b> } load( temp.gc)'
+Error: Operation Parse: No arguements given, expected:<>
+Error: Graph Parser: Unmatched parentheses: '()'
+Error: Graph Parser: Unmatched parentheses: '({)}'
+Error: Graph Parser: Unmatched parentheses: '({)}'
+Error: Graph Parser: Unmatched parentheses: '<>'
+Error: Graph Parser: Unmatched parentheses: '<>'
+Error: DiGraph: Illegal vertex name: 'x y'
+Error: Operation Parse: No arguements given, expected:<>
+[00;00]
+[00;01]
+[00;10]
+[00;11]
+[01;00]
+[01;01]
+[01;10]
+[01;11]
+[10;00]
+[10;01]
+[10;10]
+[10;11]
+[11;00]
+[11;01]
+[11;10]
+[11;11]
+$
+[00;00] [01;01]
+[00;00] [01;10]
+[00;00] [01;11]
+[00;00] [10;01]
+[00;00] [10;10]
+[00;00] [10;11]
+[00;00] [11;01]
+[00;00] [11;10]
+[00;00] [11;11]
+[00;01] [01;00]
+[00;01] [01;10]
+[00;01] [01;11]
+[00;01] [10;00]
+[00;01] [10;10]
+[00;01] [10;11]
+[00;01] [11;00]
+[00;01] [11;10]
+[00;01] [11;11]
+[00;10] [01;00]
+[00;10] [01;01]
+[00;10] [01;11]
+[00;10] [10;00]
+[00;10] [10;01]
+[00;10] [10;11]
+[00;10] [11;00]
+[00;10] [11;01]
+[00;10] [11;11]
+[00;11] [01;00]
+[00;11] [01;01]
+[00;11] [01;10]
+[00;11] [10;00]
+[00;11] [10;01]
+[00;11] [10;10]
+[00;11] [11;00]
+[00;11] [11;01]
+[00;11] [11;10]
+[01;00] [00;01]
+[01;00] [00;10]
+[01;00] [00;11]
+[01;00] [10;01]
+[01;00] [10;10]
+[01;00] [10;11]
+[01;00] [11;01]
+[01;00] [11;10]
+[01;00] [11;11]
+[01;01] [00;00]
+[01;01] [00;10]
+[01;01] [00;11]
+[01;01] [10;00]
+[01;01] [10;10]
+[01;01] [10;11]
+[01;01] [11;00]
+[01;01] [11;10]
+[01;01] [11;11]
+[01;10] [00;00]
+[01;10] [00;01]
+[01;10] [00;11]
+[01;10] [10;00]
+[01;10] [10;01]
+[01;10] [10;11]
+[01;10] [11;00]
+[01;10] [11;01]
+[01;10] [11;11]
+[01;11] [00;00]
+[01;11] [00;01]
+[01;11] [00;10]
+[01;11] [10;00]
+[01;11] [10;01]
+[01;11] [10;10]
+[01;11] [11;00]
+[01;11] [11;01]
+[01;11] [11;10]
+[10;00] [00;01]
+[10;00] [00;10]
+[10;00] [00;11]
+[10;00] [01;01]
+[10;00] [01;10]
+[10;00] [01;11]
+[10;00] [11;01]
+[10;00] [11;10]
+[10;00] [11;11]
+[10;01] [00;00]
+[10;01] [00;10]
+[10;01] [00;11]
+[10;01] [01;00]
+[10;01] [01;10]
+[10;01] [01;11]
+[10;01] [11;00]
+[10;01] [11;10]
+[10;01] [11;11]
+[10;10] [00;00]
+[10;10] [00;01]
+[10;10] [00;11]
+[10;10] [01;00]
+[10;10] [01;01]
+[10;10] [01;11]
+[10;10] [11;00]
+[10;10] [11;01]
+[10;10] [11;11]
+[10;11] [00;00]
+[10;11] [00;01]
+[10;11] [00;10]
+[10;11] [01;00]
+[10;11] [01;01]
+[10;11] [01;10]
+[10;11] [11;00]
+[10;11] [11;01]
+[10;11] [11;10]
+[11;00] [00;01]
+[11;00] [00;10]
+[11;00] [00;11]
+[11;00] [01;01]
+[11;00] [01;10]
+[11;00] [01;11]
+[11;00] [10;01]
+[11;00] [10;10]
+[11;00] [10;11]
+[11;01] [00;00]
+[11;01] [00;10]
+[11;01] [00;11]
+[11;01] [01;00]
+[11;01] [01;10]
+[11;01] [01;11]
+[11;01] [10;00]
+[11;01] [10;10]
+[11;01] [10;11]
+[11;10] [00;00]
+[11;10] [00;01]
+[11;10] [00;11]
+[11;10] [01;00]
+[11;10] [01;01]
+[11;10] [01;11]
+[11;10] [10;00]
+[11;10] [10;01]
+[11;10] [10;11]
+[11;11] [00;00]
+[11;11] [00;01]
+[11;11] [00;10]
+[11;11] [01;00]
+[11;11] [01;01]
+[11;11] [01;10]
+[11;11] [10;00]
+[11;11] [10;01]
+[11;11] [10;10]
+G2
+G3
+pprint
+resett
+ssave
+symbols
+whoo

@@ -1,0 +1,37 @@
+G2
+G3
+x1
+x2
+x3
+$
+x1 x2
+x1 x3
+Error: File Manager: Error reading edge num. '1'
+Error: File Manager: Error reading vertices count in: 'graph_empty_file.gc'
+Error: File Manager: Error reading vertices count in: 'graph_wrong_vertices_count.gc'
+Error: File Manager: Error reading vertex length num. '0'
+Error: File Manager: Error reading vertex num. '0'
+Error: File Manager: Error reading edges count in: 'graph_wrong_edges_count.gc'
+Error: File Manager: Error reading edge num. '11'
+Error: File Manager: Error reading edge num. '11'
+Error: File Manager: Error reading edge num. '11'
+Error: File Manager: Error reading edge num. '11'
+Error: DiGraph: Received nonexistent vertex: 'x9'
+Error: Graph Parser: Unmatched parentheses: '[]'
+Error: File Manager: File still has data left in it: 'graph_too_long.gc'
+Error: DiGraph: Self loof deteced: 'x4'
+Error: DiGraph: Vertex already exists: 'x1'
+Error: DiGraph: Illegal edge name: 'x1,,4'
+Error: DiGraph: Illegal edge name: 'x,,x2'
+Error: DiGraph: Illegal vertex name: 'x,'
+Error: DiGraph: Illegal vertex name: '[;];[;]'
+Error: File Manager: Error reading edge num. '11'
+Error: File Manager: Error reading edge num. '12'
+Error: File Manager: File illegal name, illegal character:  '''
+Error: File Manager: File illegal name, illegal character:  '"'
+Error: Graph Parser: Unmatched parentheses: '()'
+Error: Graph Parser: Unmatched parentheses: '()'
+Error: Operation Parse: Arguement number mismatch: expected:2 received:3
+Error: File Manager: error opening file, maybe it doesn't exist or has an illegal character? : 'file*name'
+Error: File Manager: File exceeds maximum length, length was: '260'
+Error: File Manager: error opening file, maybe it doesn't exist or has an illegal character? : '1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111'

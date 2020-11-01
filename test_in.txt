@@ -1,0 +1,99 @@
+                  save (       {},     graph_.{gc          )
+                  save (       {},     graph_.}gc          )
+                  save (       {},               )
+    print (    load       (  graph_.{gc )         )         
+    print (    load       (  graph_.}gc )         )         
+      print (    load       (  graph_.>gc )         )     
+        print (    load       (  graph_.<gc )         )     
+    print (    load       (  graph_}{.gc )         )         
+           save    (     {x1,x2,x3,  x4    |<x4,x1>, <x3,x4>,<x2,x3>,<x1,x2>} ^ !   (     { x1,x2,x3,  x4    |            <  x4, x1   >, < x3, x4  >,< x2, x3  >,< x1,x2>})             ,    load " save  . ' print  >  *  who  |   "reset  .  quit '  <   delete  :  ;  =  !   ^  +  - } { ] [        )
+        G2          = ({   }* load  (     load " save  . ' print  >  *  who  |   "reset  .  quit '  <   delete  :  ;  =  !   ^  +  - } { ] [ )   +{  |  }* load  (     load " save  . ' print  >  *  who  |   "reset  .  quit '  <   delete  :  ;  =  !   ^  +  - } { ] [ )       + (  load  (     load " save  . ' print  >  *  who  |   "reset  .  quit '  <   delete  :  ;  =  !   ^  +  - } { ] [ )  -  !!( load  (     load " save  . ' print  >  *  who  |   "reset  .  quit '  <   delete  :  ;  =  !   ^  +  - } { ] [ )) ) + (  load  (     load " save  . ' print  >  *  who  |   "reset  .  quit '  <   delete  :  ;  =  !   ^  +  - } { ] [ )  -  !(!( load  (     load " save  . ' print  >  *  who  |   "reset  .  quit '  <   delete  :  ;  =  !   ^  +  - } { ] [ ))) ))* load  (     load " save  . ' print  >  *  who  |   "reset  .  quit '  <   delete  :  ;  =  !   ^  +  - } { ] [ ) + { x1 , x2,x3 | <x1,x2> , <x1,x3> }
+    G3 = (G2) ^ ( load  (     load " save  . ' print  >  *  who  |   "reset  .  quit '  <   delete  :  ;  =  !   ^  +  - } { ] [ )) *  load  (     load " save  . ' print  >  *  who  |   "reset  .  quit '  <   delete  :  ;  =  !   ^  +  - } { ] [ )
+                  save (       {},     graph_.[gc          )
+                  save (       {},     graph_.]gc          )
+                  save (       {},     graph_].[gc
+    print(G2)
+    print(G3)
+    print( (G2) ^ ( load  (     load " save  . ' print  >  *  who  |   "reset  .  quit '  <   delete  :  ;  =  !   ^  +  - } { ] [ )) *  load  (     load " save  . ' print  >  *  who  |   "reset  .  quit '  <   delete  :  ;  =  !   ^  +  - } { ] [ ))
+    save    (    load(load " save  . ' print  >  *  who  |   "reset  .  quit '  <   delete  :  ;  =  !   ^  +  - } { ] [)* {x1,x2,x3,  x4    |<x4,x1>, <x3,x4>,<x2,x3>,<x1,x2>} ^ !   (     { x1,x2,x3,  x4    |            <  x4, x1   >, < x3, x4  >,< x2, x3  >,< x1,x2>})             ,    load " save  . ' print  >  *  who  |   "reset  .  quit '  <   delete  :  ;  =  !   ^  +  - } { ] [        )
+    print(load(load " save  . ' print  >  *  who  |   "reset  .  quit '  <   delete  :  ;  =  !   ^  +  - } { ] [))
+               
+
+print({x1,x2,x3,  x4    |<x4,x1>, <x3,x4>,<x2,x3>,<x1,x2>} + !((!load(temp.gc))) * G1-G3)
+print (    load       (  graph_empty_file.gc )         )
+print (    load       (  graph_wrong_vertices_count.gc )    )
+print (    load       (  graph_wrong_vertex_length.gc )    )
+print (    load       (  graph_wrong_vertex_data.gc )    )
+print (    load       (  graph_wrong_edges_count.gc )    )
+print (    load       (  graph_wrong_edge_vertex_length_2.gc )    )
+print (    load       (  graph_wrong_edge_vertex_length_1.gc )    )
+print (    load       (  graph_wrong_edge_vertex_data_2.gc )    )
+print (    load       (  graph_wrong_edge_vertex_data_1.gc )    )
+print (    load       (  graph_vertex_not_exist.gc )    )
+print (    load       (  graph_unmatched_parentheses.gc )    )
+print (    load       (  graph_too_long.gc )    )
+print (    load       (  graph_self_loop.gc )    )
+print (    load       (  graph_same_vertex.gc )    )
+print (    load       (  graph_illegal_vertex_name_in_edge_2.gc )    )
+print (    load       (  graph_illegal_vertex_name_in_edge_1.gc )    )
+print (    load       (  graph_illegal_vertex_name.gc )    )
+print (    load       (  graph_illegal_semicolon.gc )    )
+print (    load       (  graph_extra_vertices.gc )    )
+print (    load       (  graph_extra_edges.gc )    )
+        save    (    {}    ,   11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111  )
+    ssave =  {  [][]  ,  [[]] ,[[][]] ,[a;][;b] , [;[];] , [[;;]] |      <[][],[[]]>  , < [[][]] , [[;;]] > } ^{  [][]  ,  [[]] ,[[][]] ,[a;][;b] , [;[b];] , [[;;]] |      <[][],[[]]>    }
+    print(ssave)
+    whoo =  {  ab , ba ,AB,BA  , 00, 01,10  ,11| <11,ab>  , <ba,00> } + {  ab , ba ,AB,BA  , 00, 011,110  ,111| <111,ab>  , <ba,00> }
+    print(whoo)
+    resett =  (!{ 00, 01 ,10 ,11 | }  - !{00, 01}) -  (!!( !{00,01,10,11}  ))
+    print(resett)
+    pprint = !{ 00, 01 ,10 ,11 | } * (!{00,01}-{01}  ) ^ (!!!!{00,11,22,12,21,10,01} * {00,11})
+    lload = !{ 00, 01 ,10 ,11 | } * (!{00,01}-{01}   ^ (!(!(!(!{00,11,22,12,21,10,01})))))
+    print(pprint)
+    print(lload)
+       wh o
+       who()
+    who             (  )
+    delet e (ssave)
+    d elete (whoo)
+    quit shouldnotquit
+    qquit
+          rese t
+        reset()
+   reset    (          )
+   save (          { | }   + !{  ab,ba }  ^ whoo  , load " save  . ' print  >  *  who  |   "reset  .  quit '  <   delete  :  ;  =  !   ^  +  - } { ] [  )
+         symbols        =  ! ({save , load , print , who, reset, quit , delete    |   } )  ^ (!{save , load , print , who, reset, quit , delete    |   }  - {save , load , print , who    | <save,load> , <load,print> ,<print,who>, <who,print> }  )
+         print(symbols)
+               print(  ! ({save , load , print , who, reset, quit , delete    |   } )  ^ (!{save , load , print , who, reset, quit , delete    |   }  - {save , load , print , who    | <save,load> , <load,print> ,<print,who>, <who,print> }  ))
+  save (        ! ({save , load , print , who, reset, quit , delete    |   } )  ^ (!{save , load , print , who, reset, quit , delete    |   }  - {save , load , print , who    | <save,load> , <load,print> ,<print,who>, <who,print> }  )    ,    load " save  . ' print  >  *  who  |   "reset  .  quit '  <   delete  :  ;  =  !   ^  +  - } { ] [       )                    
+  save ( nonexistenet1 ^ nonexistenet2 , file)
+  print ( nonexistenet1 +!nonexistenet1 -nonexistenet1)
+  shouldnotexist1 = ( nonexistenet1 +!nonexistenet1 -nonexistenet1)
+  delete (  nonexistenet1  )
+  delete (lload)
+  shouldnotexist2 =  { a,b,c |<a,b>,  } - {  }
+  shouldnotexist3 =  { a,      |  <a,b>  } - {  }
+  shouldnotexist4 =  { a,,c |  <a,c> } - {  }
+    shouldnotexist5 =  { a,b,c | ,<a,b>  } - {  }
+  shouldnotexist6 =  { [;a;],b,c |  <b,c> ,<[];a,b> } - {  }
+  shouldnotexist7 =  { [;a;],b,c |  <b,c> ,<[];a,b> } - {  }
+    shouldnotexist8 =  { a,b,c |  <b,c> ,<a,a> } - {  }
+    shouldnotexist9 =  { a,b,c |  <b,c> ,<a,]a[> } - {  }
+    shouldnotexist10 =  { a,b,c |  <b,c> ,<a,> } - {  }
+    shouldnotexist11 =  { a,b,c |  <b,c> ,<a,b } - {  }
+    shouldnotexist11 =  { a,b,c |  <b,c> <a,b> } - {  }
+    shouldnotexist12 =  { a,b,c   <b,c> ,<a,b> } - {  }
+                     shouldnotexist13 =  { a,b,c  | <b,c> ,<a,b> }!{a,b} 
+                shouldnotexist14 =  { a,b,c  | <b,c> ,<a,b> } load( temp.gc) 
+                shouldnotexist15 =  { a,b,c | ,  } - {  }
+        shouldnotexist16 =  ({}))
+        shouldnotexist17 =  {    x,y | <x,y> , <y,x>           }}
+        shouldnotexist17 =  {{    x,y | <x,y> , <y,x>           }
+      shouldnotexist18 =  {    x,y | <<x,y> , <y,x>           }
+      shouldnotexist19 =  {    x,y | <x,y>> , <y,x>           }
+      shouldnotexist20 =  {    x y | <x,y> , <y,x>           }
+      shouldnotexist21 =  {    x, y | , <y,x>           }
+  print ((!{00,01,10,11} *!{00,01,10,11} ))
+  who
+        reset
+            quit
